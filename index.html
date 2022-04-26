@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <title>Proba Mobik</title>
+</head>
+<body>
+    <header>
+        <img src="./img/magus_logo.png" alt="magusLogo">
+        <h1>Véletlen találkozások Generátor</h1>
+    </header>
+    <main>
+        <h2 id="js-bestName" class="bestName"></h2>
+            <div id="js-monsterStat" class=" monsterStat">
+                <ul id="ulList">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="js-pageNumber" class="pageNumber">Oldalszám</div>
+
+            <form id="MonsterCalc" action="">
+                <label for="location">Választ vidéket/helyet <br> </label>
+                     <select name="location" id="location">
+                         <option value="mersekeltovierdo">Mérsékelt övi erdő</option>
+                         <option value="dzsungel">Dzsungel</option>
+                         <option value="mocsar">Mocsár</option>
+                         <option value="pusztasagsztyeppe">Pusztaság,sztyeppe</option>
+                     </select>
+            </form>
+    </main>
+    <footer><button id="js-button">Lássuk</button></footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
